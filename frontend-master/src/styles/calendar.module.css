@@ -1,0 +1,15 @@
+.calendarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%; /* Asegúrate de que ocupe todo el ancho disponible */
+}
+
+.calendarBox {
+  width: 50%;
+  max-width: 410px;
+  margin-top: 2rem;
+  display: flex; /* Usamos flex para asegurar que se centre dentro de su contenedor */
+  justify-content: center;
+}

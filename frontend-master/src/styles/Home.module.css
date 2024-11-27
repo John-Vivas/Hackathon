@@ -1,0 +1,97 @@
+/* Contenedor principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/src/img/Diseño\ sin\ título.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+/* Texto de bienvenida */
+.textContainer {
+  text-align: center;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffeac5;
+  margin-bottom: 0.5rem;
+}
+
+.paragraph {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #ff6f00;
+  color: white;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e65100;
+}
+
+/* Contenedor de "Acerca de Nosotros" */
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.aboutText {
+  flex: 1;
+  text-align: left;
+}
+
+.aboutHeader {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.aboutParagraph {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.aboutImage {
+  flex-shrink: 0;
+  width: 450px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
